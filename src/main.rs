@@ -14,7 +14,7 @@ fn main() {
             .application(app)
             .default_width(320)
             .default_height(200)
-            .title("Hello, Stilsoft!")
+            .title("Hello, Panda!")
             .build();
 
         let v_box = Box::new(adw::gtk::Orientation::Vertical, 1);
