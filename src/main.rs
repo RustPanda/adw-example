@@ -12,8 +12,8 @@ fn main() {
     app.connect_activate(|app| {
         let window = ApplicationWindow::builder()
             .application(app)
-            .default_width(320)
-            .default_height(200)
+            .default_width(640)
+            .default_height(400)
             .title("Hello, Panda!")
             .build();
 
